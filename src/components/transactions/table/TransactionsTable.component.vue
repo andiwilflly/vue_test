@@ -28,7 +28,7 @@
 </script>
 
 
-<style>
+<style scoped>
 	.transactions-table {
 		margin: 20px 0;
 	}

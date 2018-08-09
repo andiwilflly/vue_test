@@ -2,14 +2,13 @@
     opacity: 0.4;
 }
 
-.resizer {
-    position: relative;
-   height: 100%;
-    float: left;
-}
-
 p {
     margin: 0;
+}
+
+.desktop {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .desktop-item {

@@ -37,6 +37,7 @@
 				return arr;
 			},
 			onDragEnd(e) {
+				if(e.oldIndex === e.newIndex) return;
 				let list = [...this.items.map(item=> ({ ...item }))];
 				this.$store.dispatch("desktop/updateItems", this.arrayMove(list, e.oldIndex, e.newIndex));
 			},

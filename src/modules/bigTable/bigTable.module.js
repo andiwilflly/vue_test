@@ -8,7 +8,7 @@ export default {
 		x: 0,
 		y: 0,
 		visible: {
-			width: window.innerWidth - 10,
+			width: window.innerWidth - 30,
 			height: window.innerHeight / 1.5,
 			table: {}
 		},

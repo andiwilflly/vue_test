@@ -1,0 +1,45 @@
+h3 {
+    margin: 40px 0 0;
+}
+
+.big-table-container {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: scroll;
+}
+
+
+.big-table-inner {
+    background-image: url(../../images/cell.png);
+}
+
+
+ul {
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+li {
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background: #378f62;
+}
+
+
+p {
+    margin: 0;
+    color: whitesmoke;
+}
+
+

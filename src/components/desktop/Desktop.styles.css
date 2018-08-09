@@ -1,0 +1,32 @@
+.sortable-ghost {
+    opacity: 0.4;
+}
+
+.resizer {
+    position: relative;
+   height: 100%;
+    float: left;
+}
+
+p {
+    margin: 0;
+}
+
+.desktop-item {
+    position: relative;
+    background: seashell;
+    border: 1px solid darkgray;
+    margin: 5px 0;
+    overflow: hidden;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+
+.desktop-item-title {
+    background: darkcyan;
+    color: whitesmoke;
+    cursor: move;
+    padding: 5px;
+    margin-bottom: 10px;
+}

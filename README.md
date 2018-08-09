@@ -1,5 +1,4 @@
-# big_table
-
+# Vue.js test task
 ## Project setup
 ```
 yarn install

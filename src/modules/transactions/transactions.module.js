@@ -1,8 +1,3 @@
-
-const socket = new WebSocket('wss://ws.blockchain.info/inv');
-
-
-
 export default {
 
 	state: {
